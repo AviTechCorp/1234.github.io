@@ -11,7 +11,7 @@ fetch('https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=1m&limit=10
 
     const chart = LightweightCharts.createChart(document.getElementById('tvchart'), {
       width: 1600,
-      height: 600,
+      height: 700,
     });
 
     const series = chart.addCandlestickSeries({
